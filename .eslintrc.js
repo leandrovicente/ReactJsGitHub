@@ -12,8 +12,6 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
-    React: "writable",
-
   },
   parser:"babel-eslint",
   parserOptions: {
@@ -29,8 +27,6 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier':'error',
-    "react/react-in-jsx-scope": "off",
-
     'react/jsx-filename-extension': [
         'warn',
         {extension:['.jsx','.js']}
